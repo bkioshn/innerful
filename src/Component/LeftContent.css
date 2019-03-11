@@ -1,0 +1,14 @@
+.leftContent {
+    width: 50%;
+    height: 100%;
+    float:left;
+    overflow-x: hidden; 
+    left: 0;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftContent img {
+    width: 500px;
+}

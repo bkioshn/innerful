@@ -1,0 +1,33 @@
+.rightContent {
+    width: 50%;
+    height: 100%;
+    overflow-x: hidden; 
+    float: right;
+    background-color: E22C05;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightContent .content {
+    background-color: white;
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+    z-index: 1;
+    text-align: center; 
+}
+
+.rightContent .content .contentInside {
+    width: 100%;
+    height: 100%;
+    margin: 3em 0;
+}
+
+.rightContent .line {
+    position: absolute;
+    background-color: white;
+    height: 100%;
+    width: 20%;
+}
+
